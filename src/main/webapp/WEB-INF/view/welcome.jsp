@@ -5,6 +5,10 @@
     <title> Login Page</title>
 </head>
 <body>
-welcome ${name}!
+    <div class="container">
+        <h1>welcome ${name}! </h1>
+        <a href="list-todos">Manager</a>
+
+    </div>
 </body>
 </html>
