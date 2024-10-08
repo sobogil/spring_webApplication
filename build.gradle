@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
@@ -29,6 +30,7 @@ dependencies {
     implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl' //스프링부트 3.0 이상
     implementation 'org.webjars:bootstrap:5.1.3'  // Bootstrap 의존성
     implementation 'org.webjars:jquery:3.6.0'     // jQuery 의존성
+    implementation 'org.webjars:bootstrap-datepicker:1.9.0'
 }
 
 tasks.named('test') {
