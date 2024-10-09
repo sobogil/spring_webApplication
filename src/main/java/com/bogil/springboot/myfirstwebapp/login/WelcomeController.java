@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class LoginController {
+public class WelcomeController {
 
     @GetMapping("/")
-    public String goToLoginPage(ModelMap model) {
+    public String gowelcomePage(ModelMap model) {
         model.put("name", "bogil");
         return "welcome";
     }
